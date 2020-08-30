@@ -27,15 +27,15 @@ public class Ch2Class {
 		 */
 		
 		//DISPLAYING TEXT WITH PRINTF
-		System.out.printf("My name is:%nAsma"); //%n newline
-		System.out.printf("Today is:%s", "Sunday");//$s string
-		System.out.printf("Today is:%S", "Sunday");//$s capital string
-		System.out.printf("my age is:%d", 23);//%d integer decimal number
-		System.out.printf("the weight is:%f kg", 53.9);//%d float number
-		System.out.printf("this is a character:%c", 'a');//%c character
-		System.out.printf("this is a capital character:%C", 'a');//%C capital character
-		System.out.printf("5>6 is %b",5>6 ); //boolean
-		System.out.printf("5>6 is %B",5>6 ); //capital boolean
+		System.out.printf("My name is:%nAsma%n"); //%n newline
+		System.out.printf("Today is:%s%n", "Sunday");//$s string
+		System.out.printf("Today is:%S%n", "Sunday");//$s capital string
+		System.out.printf("my age is:%d%n", 23);//%d integer decimal number
+		System.out.printf("the weight is:%f kg%n", 53.9);//%d float number
+		System.out.printf("this is a character:%c%n", 'a');//%c character
+		System.out.printf("this is a capital character:%C%n", 'a');//%C capital character
+		System.out.printf("5>6 is %b%n",5>6 ); //boolean
+		System.out.printf("5>6 is %B%n",5>6 ); //capital boolean
 		/*
 		 * SUMMARY
 		 * System.out.printf --(f means "formatted") displays formatted data.
