@@ -1,0 +1,24 @@
+/* Traditional Comments!*/
+/** Java Doc Comments! */
+package ch2Practice;
+
+public class Ch2Class {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * main method is the starting point of every Java application
+		 * For Java application one of the methods must be called "main", otherwise (JVM) will not excute the app
+		 * Methods perform tasks and can return info when they complete their tasks
+		 * key "void" indicates that this method will not return any information
+		 */
+		
+		System.out.println("\"Hi There!\"");
+		System.out.print("Hi");
+		System.out.println(" There!");
+		System.out.printf("Hi\nThere!");
+		
+
+	}
+
+}
