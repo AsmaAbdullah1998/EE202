@@ -1,7 +1,7 @@
 /* Traditional Comments!*/
 /** Java Doc Comments! */
 package ch2Practice;
-
+import java.util.Scanner;
 public class Ch2Class {
 
 	public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class Ch2Class {
 		 * Methods perform tasks and can return info when they complete their tasks
 		 * key "void" indicates that this method will not return any information
 		 */
-		
+		//Primitive types (boolean, byte, char, short, int, float, long and double)
 		System.out.println("\"Hi There!\"");
 		System.out.print("Hi");
 		System.out.println(" There!");
@@ -48,6 +48,29 @@ public class Ch2Class {
 		 * %d decimal integer number
 		 * %f float number 
 		 * %b boolean, %B a capital boolean
+		 */
+		
+		
+		//Adding Integers--Scanner
+		System.out.println("This programm will sum two numbers");
+		Scanner input = new Scanner(System.in);
+		int n1,//first number to add
+			n2,//second number to add
+			sum;// the result of the additon
+		System.out.print("Enter the first number: ");
+		n1 = input.nextInt();
+		System.out.print("Enter the second number: ");
+		n2 = input.nextInt();
+		sum = n1 + n2;
+		System.out.printf("The sum of %d and %d is %d%n", n1, n2, sum);
+		
+		/*SCANNER!!
+		 * Enables a program to read data for use in a program
+		 * Data can come from many sources, such as the user at the kayboard or a file on disk
+		 * Here are three steps to enable user to enter data:
+		 **Importing Scanner class by typing "import java.util.Scanner;"
+		 **Scanner declaration statement by typing "Scanner input = new Scanner(System.in);"
+		 **Scanner method nextIn by typing "number1 = input.nextIn;"
 		 */
 
 	}
