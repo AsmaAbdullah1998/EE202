@@ -12,11 +12,14 @@ package ch3Package;
 import java.util.Scanner;
 public class Ch3ClassPracticing {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {//main method is a special method tha's always called auto by the Java Virtual Machine when you execute an App
+		//static--is a key part of enabling the JVM to locate and call method main to begin the app's execution 
+		//static--i special because you can call it without first creating an object of the class in which the method is declared
 		
 		/*
 		 * Explain the different between next and nextLine methods in Scanner!
 		 */
+		
 //		Scanner input = new Scanner(System.in);
 //		System.out.println("Enter your name: ");
 //		String name = input.next(); //"next" reads he next word! 
@@ -25,6 +28,13 @@ public class Ch3ClassPracticing {
 //		String name = input.nextLine(); //Pressing enter inserts a new line character after characters you typed
 //		//Scanner provides various other input methods
 //		System.out.println(name);
+		
+		/*PRIMITIVE TYPES VS. REFRENCE TYPES
+		 **primitive types: int, boolean, byte, char, short, long, float and double
+		 *can hold exactly one value of its declared type at a time. 
+		 *recall that local variables are not initialized by default 
+		 **references type:classess 
+		 */
 		
 		
 		

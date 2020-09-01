@@ -14,10 +14,15 @@ public class Account { //public-access modifier
 	//Instance variables exist before methods are called on an object
 	//Instance variables are dclared inside a class declaration but outside the bodies of the class's methods
 	//The best way is to list all class'instance variables first in the class's body before methods
-	/*private is an accesss modifier. 
+	/*private is an access modifier. 
 	*Variables or methods declared with access modifier private are accessible only to methods of the class so, the variable name can be used only in each Account object's methods (setName&getName)
 	*/
 	
+	public Account(String name) {//constructor initializes name with parameter name
+		this.name = name;
+	}
+	//a constructor must have the same name as the class
+	// a constructor can not return values not even "void"
 	
 	//method to set the name in the object
 	public void setName(String name) { //This line is the method header
