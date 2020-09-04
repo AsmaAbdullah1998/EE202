@@ -1,4 +1,4 @@
-package decisionMakingPackage;
+package Ch2Package;
 import java.util.Scanner;
 public class Practice_Lab_Sheet_1 {
 

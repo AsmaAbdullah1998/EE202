@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author EngSa
- *
- */
-module coding {
-}

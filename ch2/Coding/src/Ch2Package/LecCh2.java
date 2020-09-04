@@ -1,4 +1,4 @@
-package decisionMakingPackage;
+package Ch2Package;
 // if I used a default package I do not need to write a package name in the beginning of the programm
 import java.util.Scanner; //java.util--package, Scanner--class
 import java.lang.System;//if I write this or not it will not happen anything 
