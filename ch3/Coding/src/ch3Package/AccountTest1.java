@@ -9,7 +9,7 @@ public class AccountTest1 {
 		myName = "asma";
 		System.out.println(myName);
 		*/
-		Account1 myAccount = new Account1(); //create object from Account1 class
+		Account1 myAccount = new Account1("No one!", 0.0); //create object from Account1 class
 		Scanner input = new Scanner(System.in);
 		
 		/*ANOTHER WAY TO CREATE OBJECT!
@@ -24,7 +24,19 @@ public class AccountTest1 {
 		String name = input.nextLine();//read a line of text
 		myAccount.setName(name); //put var in myAccount name
 		
-		System.out.printf("Name in object myAccount is:%n%s%n",myAccount.getName());
+		System.out.println("Enter your balance: ");
+		double balance = input.nextDouble();
+		
+		
+		System.out.printf("Name in object myAccount is:%n%s%nmy balance is: %f%n ",myAccount.getName(), myAccount.getBalance());
+		
+		System.out.println("Enter your deposite: ");
+		double deposite = input.nextDouble();
+		
+		myAccount.depoite(deposite);
+		System.out.printf("your balance is:%n %f%n", myAccount.getBalance());
+		
+		
 		
 		
 	}
