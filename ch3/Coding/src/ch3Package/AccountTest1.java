@@ -9,7 +9,7 @@ public class AccountTest1 {
 		myName = "asma";
 		System.out.println(myName);
 		*/
-		Account1 myAccount = new Account1("No one!", 0.0); //create object from Account1 class
+		Account1 myAccount = new Account1("\"No name yet!\"", 0.0); //create object from Account1 class
 		Scanner input = new Scanner(System.in);
 		
 		/*ANOTHER WAY TO CREATE OBJECT!
@@ -17,24 +17,26 @@ public class AccountTest1 {
 		 *myAccount = new Account1(); 
 		*/
 		
-		System.out.printf("Initial name is: %s%n", myAccount.getName());
+		System.out.printf("Initial name is: %s and Initial balance is: %f%n", myAccount.getName(), myAccount.getBalance());
 		
-		System.out.println("Please enter the name: ");
+		System.out.print("Please enter the name: ");
 		//String name = input.next();//Store the first word just!. Read the input only till the space
 		String name = input.nextLine();//read a line of text
 		myAccount.setName(name); //put var in myAccount name
 		
-		System.out.println("Enter your balance: ");
+		
+		System.out.print("Enter your balance: ");
 		double balance = input.nextDouble();
+		myAccount.setBalance(balance);
 		
 		
-		System.out.printf("Name in object myAccount is:%n%s%nmy balance is: %f%n ",myAccount.getName(), myAccount.getBalance());
+		System.out.printf("Name in object myAccount is:%s and my balance is: %f%n",myAccount.getName(), myAccount.getBalance());
 		
-		System.out.println("Enter your deposite: ");
+		
+		System.out.print("Enter your deposite: ");
 		double deposite = input.nextDouble();
-		
 		myAccount.depoite(deposite);
-		System.out.printf("your balance is:%n %f%n", myAccount.getBalance());
+		System.out.printf("your balance is: %f", myAccount.getBalance());
 		
 		
 		

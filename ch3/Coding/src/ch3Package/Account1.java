@@ -5,7 +5,7 @@ public class Account1 {
 	private String name;//instance var
 	private double balance;
 	
-	//constructor initializes name with parametter name
+	//constructor initializes name with parameter name
 	public Account1(String name, double balance) {
 		this.name = name;
 		
@@ -31,6 +31,10 @@ public class Account1 {
 			balance = balance + depoiteAmount;
 		}
 		
+	}
+	
+	public void setBalance(double balance) {
+		this.balance = balance;
 	}
 	
 	public double getBalance() {
