@@ -2,8 +2,8 @@ package ch3Package;
 
 public class Account2 {
 
-	//instance variables
-	private String name;
+	//instance variables it's initilized by defult!
+	private String name;//private- only methods in this class know about this var 
 	private double balance;
 	private double depoiteAmount;
 	private String accountObject;
@@ -17,12 +17,19 @@ public class Account2 {
 		}
 	}
 	
-	public void setName(String name) {
-		this.name = name;
+	public void setName(String name) { //String name- local variable
+		//this. is to access the instance name
+		this.name = name; //store the name, "this" is a refrence to the current object
+	// this.instance name = name parameter in the method;
+		/*
+		 * If I write 
+		 * name = name; 
+		 * it will assign name of parameter in the method to itself! but the keyword "this " will let me access the private instance
+		 */
 	}
 	
-	public String getName() {
-		return name;
+	public String getName() { //this method will go out but in this class and search for variable "name" to return it
+		return name; //return this.name; --we can write this also
 	}
 	
 	
