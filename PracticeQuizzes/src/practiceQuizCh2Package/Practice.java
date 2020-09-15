@@ -178,7 +178,79 @@ public class Practice {
 //		if(sumPass > 8) {
 //			System.out.println("Bonus to instructor!");
 //		}
+		
+		
+		
+		
+//			
+//			int num = 0;
+//			int nP =0;
+//			int nN = 0;
+//			int nZ = 0;
+//			
+//			for(int i =0; i < 5; ++i) {
+//				System.out.print("Enter num:");
+//				num = input.nextInt();
+//				if (num > 0) {
+//					++nP;
+//				}
+//				else if (num < 0) {
+//					++nN;
+//				}
+//				else {
+//					++nZ;
+//				}
+//			}
+//			
+//			System.out.println("num of Positive: " + nP);
+//			
+//			System.out.println("num of Negative: " + nN);
+//			
+//			System.out.println("num of Zero: " + nZ);
+		
+		
+//
+//		Scanner input = new Scanner(System.in);
+//		int myNum, d1, d2, d3, d4, d5, remainder;
+//		
+//		
+//		System.out.print("Enter num:");
+//		myNum= input.nextInt(); //myNum= 43215
+//		
+//		d1	= myNum/ 10000; //d1 = 4.3215
+//		remainder = myNum% 10000; //remainder = 3215
+//		d2 = remainder / 1000; //d2 = 3.215
+//		remainder = remainder % 1000; //remainder = 215;
+//		d3 = remainder / 100; //d3 = 2.15
+//		remainder = remainder % 100; //remainder = 15
+//		d4 = remainder / 10;//d4 = 1.5
+//		d5 = remainder % 10;
+//		
+//		System.out.printf("%d %d %d %d %d %n", d1, d2, d3, d4, d5);
+//		
 
+		
+//		
+//	Scanner input = new Scanner(System.in);
+//	int n1,n2,n3;
+//	System.out.print("Enter num:");
+//	n1 = input.nextInt();
+//	System.out.print("Enter num:");
+//	n2 = input.nextInt();
+//	System.out.print("Enter num:");
+//	n3 = input.nextInt();
+//if (n1 > n2 && n1 > n3) {
+//	System.out.println(n1);
+//}
+//else if (n2 > n1 && n2 > n3) {
+//	System.out.println(n2);
+//}
+//else {
+//	System.out.println(n3);
+//}
+//
+//}
+//		
 	}
 
 }
