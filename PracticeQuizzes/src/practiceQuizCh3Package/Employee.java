@@ -12,7 +12,7 @@ public class Employee {
 	private double monthlySalary;
 	private double riseAmount;
 	
-	//constructr num1
+	//constructor num1
 	public Employee() {
 		
 	}
