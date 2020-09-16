@@ -1,0 +1,23 @@
+package labSheet;
+
+public class Date {
+
+	private int month;
+	private int day;
+	private int year;
+	
+	public Date(int month, int day, int year) {
+		this.month = month;
+		this.year = year;
+		this.day = day;
+			
+	}
+	
+	
+	
+	public void displayDate() {
+		System.out.printf("%d" + "/" + "%d"+"/"+ "%d", month, day, year);
+	}
+	
+	
+}

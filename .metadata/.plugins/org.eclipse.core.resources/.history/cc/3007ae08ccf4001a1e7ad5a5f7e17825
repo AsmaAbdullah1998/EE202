@@ -1,0 +1,21 @@
+package ch3Package;
+
+public class Invoice {
+	private String partNumber;
+	private String partDescription;
+	private int quantity;
+	private double price;
+	
+	public Invoice(String partNumber, String partDescription,int quantity,double price   ) { //constructor
+		this.partNumber = partNumber;
+		this.partDescription = partDescription;
+		this.quantity = quantity;
+		this.price = price;
+	}
+	
+	public void setPartNumber(String ) {
+		
+	}
+	
+	
+}

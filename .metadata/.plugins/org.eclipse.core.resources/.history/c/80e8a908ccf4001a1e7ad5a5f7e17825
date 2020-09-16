@@ -1,0 +1,20 @@
+package ch3Package;
+import java.util.Scanner;
+
+
+public class InvoiceTest {
+
+	public static void main(String[] args) {
+		int number = 5; 
+		String myName = "asma";
+		double myDoubleNumber = 3; 
+
+		
+		String name = "asma";
+		
+	
+		int  numbers = 49; 
+	}
+
+}
+

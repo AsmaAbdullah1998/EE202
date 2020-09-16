@@ -1,0 +1,17 @@
+package labSheet;
+
+import java.util.Scanner;
+
+public class DateTest {
+
+	public static void main(String[] args) {
+
+		
+		Scanner input = new Scanner(System.in);
+		Date myDate = new Date(7, 4, 2003);
+		
+		myDate.displayDate();
+
+	}
+
+}

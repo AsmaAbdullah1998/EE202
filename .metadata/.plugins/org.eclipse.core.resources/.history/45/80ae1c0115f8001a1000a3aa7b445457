@@ -1,0 +1,13 @@
+package practiceQuizCh3Package;
+
+public class AccountTest {
+
+	public static void main(String[] args) {
+		Account account1 = new Account();
+		
+		account1.deposite();
+		
+		
+	}
+
+}

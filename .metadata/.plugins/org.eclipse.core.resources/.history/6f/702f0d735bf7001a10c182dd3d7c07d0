@@ -1,0 +1,21 @@
+package labSheet;
+
+import java.util.Scanner;
+
+public class InvoicTest {
+
+	public static void main(String[] args) {
+
+		Invoic invoic1 = new Invoic("1234", "Hammer", 2, 14.95);
+		invoic1.originalInfo();
+		//invoic1.updatedInfo();
+		
+		Invoic invoic2 = new Invoic("5678", "Paint Brush", -4, -2);
+		invoic2.originalInfo();
+		
+		
+		
+		
+	}
+
+}

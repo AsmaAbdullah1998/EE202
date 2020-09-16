@@ -1,0 +1,36 @@
+package ch3Package;
+
+//AccessModifier class nameOfClass
+public class Account3 {
+
+	//instance variable initilaized by defult 
+	public String name;//private-access modifier we can access this var in all methods just inside this class
+	
+	
+	//setMethods: 
+	public void setName(String name) {//method header--local var
+		/*
+		 * parameters are local variables which can only be used in the method 
+		 * "String name" is a local var which can just be used inside this method
+		 * each method can only access its only local variable not other methods
+		 * this method receives "String name" as a parameter, each parameter must specifiy the type
+		 * void-return type appears before the method's name, void will perform the task but will never return anything
+		
+		*/
+		
+		//name = name;//local = instance;
+		this.name = name; //this.name-instance variable   = name--local 
+		
+	}
+	
+	//instrcutor 
+	public Account3(String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	
+}

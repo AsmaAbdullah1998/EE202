@@ -1,0 +1,15 @@
+package ch3Package;
+import java.util.*;
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		Employee myEmployee = new Employee("asma", "Sarouji", 65);
+		
+				
+		
+		
+	}
+
+}

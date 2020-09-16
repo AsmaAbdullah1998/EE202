@@ -1,0 +1,29 @@
+package ch3Package;
+import java.util.*;
+
+public class AccountTest3 {
+
+	public static void main(String[] args) {
+		//create objects
+		Scanner input = new Scanner(System.in);
+		
+	   //typeAndNameOfClass  objectName = newToCreatObject defaultConstructor 
+		Account3 myAccount3 = new Account3("asma sarouji");//constructor
+		System.out.println("YOUR CONSTRUCTOR NAME IS: " + myAccount3.getName());
+		
+		System.out.println("Enter your name: ");
+		String name = input.next();
+		myAccount3.setName(name);
+		
+		System.out.printf("Welcome %s you changed your constructor name! %n", myAccount3.getName());
+		
+		
+	//	myAccount3.setName("asma");
+		
+		//System.out.printf("your name is: %s", myAccount3.getName());
+
+		
+		
+	}
+
+}

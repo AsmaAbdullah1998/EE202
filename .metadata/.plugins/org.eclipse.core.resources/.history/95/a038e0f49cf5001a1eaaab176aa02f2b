@@ -1,0 +1,71 @@
+package quiz1;
+
+import java.util.Scanner;
+
+
+
+public class Quiz1 {
+	
+	public static void main(String[] args) {
+				
+//		System.out.println("////////////////" + "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"");	
+//		System.out.println("==\tStudent Points       == ");
+//		System.out.println("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\""+"///////////////");
+		
+		
+		
+		//Q2
+//		int khalidAge = 0;
+//	      int turkeyAge = 0;
+//	   
+//	      Scanner scan = new Scanner(System.in		);
+//	   
+//	      System.out.print("What is Turkey's current age? ");
+//	      turkeyAge = scan.nextInt();
+//	   
+//	      khalidAge = (3 * turkeyAge) - ( 6);
+//	   
+//	      System.out.println("If Turkey is " + turkeyAge + " then Khalid must be " + khalidAge + ".");
+//	
+		
+		
+		
+		//Q3
+//		int val1, val2, val3;
+//	       double average;
+//	       Scanner scan = new Scanner(System.in) ;
+//
+//	       // get three values from user
+//	       System.out.println("Please enter three integers and I will compute their average");
+//	       
+//	       System.out.print("Enter the first value: ");
+//	       val1 = scan.nextInt();
+//	       System.out.print("Enter the second value: ");
+//	       val2 = scan.nextInt();
+//	       System.out.print("Enter the third value: ");
+//		   val3 = scan.nextInt();
+//		   average = (double )(val1 + val2 + val3 )/3;
+//			System.out.println("The average is: " + average + ".");
+		
+		
+		//Q4
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter first integer: ");
+		int n1 = input.nextInt();
+		System.out.print("Enter second integer: ");
+		int n2 = input.nextInt();
+		
+		if(n1 > n2) {
+			System.out.println(n1 + " is larger");
+		}
+		if(n2 > n1){
+			System.out.println(n2 + " is larger");
+		}
+		if(n1 == n2) {
+			System.out.println("These numbers are equal");
+		}
+		
+		
+	
+	}
+}

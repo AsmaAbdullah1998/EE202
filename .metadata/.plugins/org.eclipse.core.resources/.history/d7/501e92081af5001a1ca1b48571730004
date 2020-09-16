@@ -1,0 +1,27 @@
+package practiceQuizCh2Package;
+
+import java.util.*;
+public class Practice {
+
+	public static void main(String[] args) {
+		 
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Enter num1");
+		int num1 = input.nextInt();
+		System.out.println("Enter num2");
+		int num2 = input.nextInt();
+		
+		if(num1 > num2) {
+			System.out.printf("%d is greater than %d%n", num1, num2);
+		}
+		else if (num2 > num1) {
+			System.out.printf("%d is greater than %d%n", num2, num1);
+		}
+		else {
+			System.out.printf("%d and %d are equal", num1, num2);
+		}
+		
+	}
+
+}

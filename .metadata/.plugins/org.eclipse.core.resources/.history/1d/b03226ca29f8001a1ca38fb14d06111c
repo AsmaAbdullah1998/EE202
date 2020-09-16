@@ -1,0 +1,15 @@
+package practiceQuizCh3Package;
+
+public class ClockTest {
+
+	public static void main(String[] args) {
+		Clock clock1 = new Clock(44, 2,1);
+		
+		System.out.printf("Number of h is: %d%nNumber of min is: %d", clock1.getHour(), clock1.getMin());
+		
+		clock1.setHour(44);
+		System.out.printf("Number of h is: %d%nNumber of min is: %d", clock1.getHour(), clock1.getMin());
+	
+	}
+	
+}
