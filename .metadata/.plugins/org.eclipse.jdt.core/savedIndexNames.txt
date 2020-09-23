@@ -1,5 +1,0 @@
-INDEX VERSION 1.131+C:\Users\EngSa\OneDrive\Desktop\First year EE\EE202\.metadata\.plugins\org.eclipse.jdt.core
-1895193558.index
-514785463.index
-1772630049.index
-188804004.index
