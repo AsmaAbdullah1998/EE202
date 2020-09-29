@@ -21,6 +21,7 @@ public class EmployeeTest{
 		System.out.println( "Salary: "+employee2.getSalary());
 		
 		
+		
 	}  
 	
 	
