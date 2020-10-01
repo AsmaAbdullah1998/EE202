@@ -7,7 +7,7 @@ Scanner input = new Scanner(System.in);
 
 private int num; //input number declartion
 
-public void checkFiveDigits(){
+public void checkFiveDigits(){ //method NO.1
 	System.out.print("Enter a 5-digit number: ");
 	num = input.nextInt();
 	
@@ -23,7 +23,7 @@ public void checkFiveDigits(){
 }//end checkFiveDigitsMethod	
 
 int rem, d1, d2, d3, d4, d5; //rem-remainder, -d1,d2,d3,d4,d5--digits!
-public void seprateDigits(){
+public void seprateDigits(){ //Method NO.2
 	d1 = num / (int) Math.pow(10,4);
 	rem = num % (int) Math.pow(10,4);
 	d2 = rem / (int) Math.pow(10,3);
@@ -40,7 +40,7 @@ public void seprateDigits(){
 	
 }//end seprateDigitsMethod
 
-public void checkPalindrome(){
+public void checkPalindrome(){//Method No.3
 	
 	this.seprateDigits();
 	while (d1 != d5 ||  d2 != d4){
