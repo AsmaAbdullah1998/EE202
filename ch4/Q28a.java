@@ -5,7 +5,7 @@ public class Q28a{
 		
 		x = 9;
 		y = 11;
-		if(x < 10) //nothing is happening, independent statement
+		if(x > 10) //nothing is happening, independent statement
 		if(y > 10)//true, independent statement
 		System.out.println("*********"); //output ********
 		else
