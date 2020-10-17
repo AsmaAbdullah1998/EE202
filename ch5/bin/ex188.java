@@ -1,34 +1,33 @@
 import java.util.*;
-public class Ex100 {
+public class ex188 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.print("Enter : ");
+		
+		System.out.print("Input: ");
 		int number = input.nextInt();
-		for(int i = number; i>=1; i--) {
+		
+		for(int i = 1; i<=number; i++) {
 			for(int space = 1; space<=number-i; space++)
 				System.out.print(" ");
-			for(int stars = 1; stars<=(2*i) - 1; stars++)	
+			for(int stars = 1; stars<=2*i - 1; stars++)
 				System.out.print("*");
 			
 			System.out.println();
 			
-			if(i == 1) {
-				for(i = 1; i<=number; i++) {
-					for(int space = 1; space<=number-i; space++)
+			if(i == number) {
+				for(int j = number-1; j>=1; j-- ) {
+					for(int space = 1; space<=number-j; space++)
 						System.out.print(" ");
-					for(int stars = 1; stars<=2*i - 1; stars++)
+					for(int stars = 1; stars<= 2*j - 1; stars++)	
 						System.out.print("*");
 					
-				System.out.println();	
-				}//end for lower part 
+					System.out.println();
+				}//end for bottom loop
+				
 			}//end if cond
-			
-			
-		}//end for loop
-		
+		}//end for upper loop
 		
 		
 	}//end main
-	
 }//end class
