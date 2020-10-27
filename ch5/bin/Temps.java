@@ -4,25 +4,30 @@ public class Temps {
 
 	public static void main(String[] args) {
 		int HOURS_PER_DAY = 6;
-		int temp; 
+		int temp;
+		
 		Scanner scan = new Scanner(System.in);
 		System.out.println();
 		System.out.println("Temperature Readings for 6 Hour Period");
 		System.out.println();
-		int hour = 1;
+		
+		
 		System.out.print("Enter the temperature reading at " + hour + " hours: ");
-		temp = scan.nextInt();
-		int max = temp, min = temp;
+		temp = scan.nextInt(); //temp = 4; 
+		
+		int max = temp, min = temp;//max = min = temp = 4; 
 		int hMax = 1, hMin = 1;
 		
+		int hour = 1;
 		
-		for (hour = 2; hour <= HOURS_PER_DAY; hour++) {
+		
+		for ( hour = 2; hour <= HOURS_PER_DAY ; hour++) {//hour=2,3,4,5,6
 			System.out.print("Enter the temperature reading at " + hour + " hours: ");
-			temp = scan.nextInt();
+			temp = scan.nextInt();  //temp = 12; 
 			
 			if(temp > max) {
-				max =temp;
-				hMax = hour;
+				max =temp; //max = 12; 
+				hMax = hour;//hour = 2; 
 			}//end if1
 			if(temp < min) {
 				min = temp;
@@ -31,6 +36,9 @@ public class Temps {
 			
 			
 		}//end for loop
+		
+		
+		
 		System.out.println();
 		
 		System.out.println("The maximum temperature is " + max);
